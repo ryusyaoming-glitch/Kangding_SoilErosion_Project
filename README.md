@@ -21,15 +21,6 @@ License：This code is released under the MIT License. You are free to use and m
 Citation：If you use this code, please cite the following paper:
 Yuqi Guan. Spatiotemporal Characteristics and Driving Factors of Soil Erosion in the Kangding River Basin (Southwest China) Based on the RUSLE Model.
 2.Data
-This section contains the raw datasets used in the study to ensure reproducibility.
-Land use data: 30-meter annual land cover dataset from the Resource and Environment Data Center (RESDC)
-Soil erodibility factor data: Derived from the 1:1,000,000 World Soil Dataset
-Data sources and access links:
-Kangding City vector boundary: NGCC (https://www.ngcc.cn, accessed 2025-10-17)
-Precipitation: RESDC (https://www.resdc.cn, accessed 2025-10-17)
-Land use: RESDC 30-meter annual land cover (https://www.resdc.cn, accessed 2025-10-17)
-DEM: Geospatial Data Cloud (https://www.gscloud.cn, accessed 2025-10-17)
-Soil factors: 1:1,000,000 World Soil Dataset (https://www.ncdc.ac.cn, accessed 2025-10-17)
-Researchers can download these datasets from the public sources above and replace the CSV files in the code.
+Sentinel-2 imagery for the study area was downloaded from the Copernicus Open Access Hub (https://scihub.copernicus.eu/) and used for spatial analysis and visualization. precipitation data from the Resource and Environment Data Center, Chinese Academy of Sciences (https://www.resdc.cn, accessed on 25 May 2025); The land use/land cover (LULC) data were obtained from the CNLUCC (China’s Multi-Period Land Use Land Cover Remote Sensing Monitoring Dataset), with a spatial resolution of 30 m (https://www.resdc.cn, accessed on 25 May 2025); Digital elevation model (DEM) data from the Geospatial Data Cloud (https://www.gscloud.cn, accessed on 25 May 2025); and the basic soil erodibility factor data derived from the 1:1,000,000 World Soil Dataset (https://www.ncdc.ac.cn, accessed on 25 May 2025). The normalized difference vegetation index (NDVI) data were obtained from the Resource and Environmental Science Data Platform, with a spatial resolution of 30 m (https://www.resdc.cn, accessed on 25 May 2025). Slope and slope direction data were derived from the DEM. All data used in this study were processed to have a uniform spatial resolution of 30 m.
 3.Vectors
 This section contains the original vector files used to generate the maps in the manuscript.Includes administrative boundaries for Kangding City and other relevant regionsFile types: Shapefile (.shp, .shx, .dbf, .prj) or GeoJSON.Used in ArcGIS 10.8 to generate figures; files can be projected, clipped, and visualized as needed.All vector data are publicly accessible via the sources listed in the Data section.
